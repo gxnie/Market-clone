@@ -1,0 +1,70 @@
+main {
+  padding: 20px 30px;
+}
+.item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ededef;
+  padding: 15px 0;
+}
+
+.item-list__img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 13px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.item-list__img img {
+  width: 50px;
+}
+
+.item-list__info {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.item-list__info div {
+  margin: 6px;
+}
+
+.item-list__info-title {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.item-list__info-meta {
+  font-size: smaller;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.item-list__info-price {
+  font-weight: bold;
+}
+
+.write-btn {
+  position: fixed;
+  background-color: var(--button-primary);
+  color: white;
+  bottom: 130px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all 0.3s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: var(--button-hover);
+}
